@@ -46,7 +46,7 @@ colorscheme jay
 "All characters after the 80th column are highlighted
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81/
+"match OverLength /\%81/
 
 " Disablingd Arrow keys in all modes
 """"""""""""""""""""""""""""""""""""
