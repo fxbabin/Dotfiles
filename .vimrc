@@ -16,7 +16,7 @@ call vundle#end()
 
 set mouse=a
 set nu
-set listchars=eol:¬,tab:>-,trail:-
+set listchars=eol:$,tab:>-,trail:-
 set list
 set nocompatible        " be iMproved, required for Vundle
 filetype off            " required for Vundle
