@@ -1,3 +1,6 @@
+MINICONDA_PATH=~/goinfre/miniconda3
+export PATH="$MINICONDA_PATH/bin:$PATH"
+
 login=$(whoami)
 curr_python=$(which python)
 mini_path=/Users/$login/goinfre/miniconda3/bin/python
@@ -14,7 +17,7 @@ else
     rm $SCRIPT
 
     export PATH="$MINICONDA_PATH/bin:$PATH"
-    pip install jupyter numpy pandas matplotlib
+    pip install jupyter jupyterlab numpy pandas matplotlib
     clear
     echo "Which python:"
     which python
