@@ -26,7 +26,7 @@ else
        echo "export already in .zshrc";
     else
        echo "adding export to .zshrc ...";
-       echo "export PATH=/Users/$login/goinfre/miniconda3/bixn" ~/.zshrc
+       echo "export PATH=/Users/$login/goinfre/miniconda3/bin" ~/.zshrc
     fi
     source ~/.zshrc
 fi
