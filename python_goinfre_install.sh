@@ -17,7 +17,7 @@ else
     rm $SCRIPT
 
     export PATH="$MINICONDA_PATH/bin:$PATH"
-    pip install jupyter jupyterlab numpy pandas matplotlib
+    pip install jupyter jupyterlab numpy pandas matplotlib django psycopg2
     clear
     echo "Which python:"
     which python
