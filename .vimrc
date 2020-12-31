@@ -8,6 +8,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'josuegaleas/jay'
+Plugin 'dense-analysis/ale'
+
 call vundle#end()
 
 """""""""""
@@ -23,11 +25,9 @@ filetype off            " required for Vundle
 
 "Tab control
 """"""""""""""
-set noexpandtab         " tabs ftw
+set tabstop=4 shiftwidth=4 expandtab
 set smarttab            " tab respects 'tabstop', 'shiftwidth', and 'softtabstop'
-set tabstop=4           " the visible width of tabs
 set softtabstop=4       " edit as if the tabs are 4 characters wide
-set shiftwidth=4        " number of spaces to use for indent and unindent
 set shiftround          " round indent to a multiple of 'shiftwidth'
 
 syntax on
@@ -45,8 +45,8 @@ colorscheme jay
 
 "All characters after the 80th column are highlighted
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.*/
+"highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+"match OverLength /\%81v.*/
 
 " Disablingd Arrow keys in all modes
 """"""""""""""""""""""""""""""""""""
