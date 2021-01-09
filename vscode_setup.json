@@ -1,0 +1,34 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "ayu",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "500",
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.formatOnSave": true,
+    "python.pythonPath": "/home/misteir/.pyenv/shims/python",
+    "python.formatting.provider": "black",
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "workbench.settings.editor": "json",
+    "grammarly.userWords": [
+        "aws",
+        "cli",
+        "eu",
+        "gunicorn",
+        "json",
+        "presigned",
+        "unstage",
+        "url",
+        "vpc"
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.testing.pytestEnabled": true,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.showExecutionMesage": false,
+    "code-runner.clearPreviousOutput": true
+}
